@@ -18,6 +18,7 @@ void Sphere::display() {
 			addch(getChar(x, y));
 		}
 	}
+	refresh();
 }
 
 char Sphere::getChar(float x, float y) {

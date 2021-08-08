@@ -5,3 +5,5 @@ project(Sphere)
 add_executable(Sphere main.cpp sphere.cpp vector3.cpp)
 
 target_link_libraries(Sphere PUBLIC ncurses)
+
+target_compile_options(Sphere PRIVATE -Wall -Wextra)
